@@ -17,7 +17,16 @@ function App() {
         >
           Learn React
         </a>
+
+        <section>
+          <form>
+              <input type="text" placeholder="Titulo"/>
+              <textarea></textarea>
+              <button>Criar Nota</button>
+          </form>
+        </section>
       </header>
+    
     </div>
   );
 }
